@@ -252,8 +252,10 @@ def build_svg(data: Dict) -> str:
     path = build_path(positions)
     foot_left, foot_right = footer_parts(data)
 
-    # The animation only needs to happen if there is something to commit.
-    mode_attr = (
+    # Theme attributes live on the root element.  Nesting them inside
+    # style="..." needs escaped quotes and turns the document into invalid
+    # XML, which GitHub silently drops (the image just does not render).
+    root_attrs = (
         ' data-dark-background="#0d1117" data-light-background="#f6f8fa"'
         if total > 0 else ''
     )
@@ -263,7 +265,7 @@ def build_svg(data: Dict) -> str:
         f'<svg width="{GRID_W}" height="{GRID_H}" fill="#c9d1d9" '
         f'xmlns="http://www.w3.org/2000/svg" '
         f'xmlns:xlink="http://www.w3.org/1999/xlink" '
-        f'style="color-scheme: light dark;{mode_attr}">'
+        f'style="color-scheme: light dark"{root_attrs}>'
     )
     parts.append(_gradient_defs())
 
@@ -311,7 +313,28 @@ def build_svg(data: Dict) -> str:
     )
 
     parts.append("</svg>")
-    return "".join(parts)
+    svg_text = "".join(parts)
+
+    # Sanity check: GitHub drops an invalid SVG silently, so a broken document
+    # would look like "the snake vanished".  Fail loudly instead of emitting it.
+    _validate_xml(svg_text)
+    return svg_text
+
+
+def _validate_xml(svg_text: str) -> None:
+    """Raise if the SVG is not well-formed XML.
+
+    Well-formedness is what matters here: an unescaped ``"`` inside an
+    attribute value (say, a ``data-*`` attribute spliced into ``style="..."``)
+    is a well-formedness error, and GitHub's sanitizer will refuse to render
+    such an image at all.
+    """
+    import xml.dom.minidom
+
+    try:
+        xml.dom.minidom.parseString(svg_text)
+    except Exception as exc:                                   # noqa: BLE001
+        raise SystemExit(f"ERROR: generated SVG is not well-formed XML: {exc}") from exc
 
 
 def embed_svg(markdown_path: str, svg_path: str) -> bool:
