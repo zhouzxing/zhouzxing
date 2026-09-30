@@ -1,0 +1,48 @@
+{
+  "repo": "zhouzxing/zhouzxing",
+  "repos": [
+    "zhouzxing/zhouzxing",
+    "zhouzxing/infor_ai",
+    "zhouzxing/python_tech_research",
+    "zhouzxing/resume"
+  ],
+  "weeks": [
+    {
+      "week": 202631,
+      "total": 0
+    },
+    {
+      "week": 202632,
+      "total": 0
+    },
+    {
+      "week": 202633,
+      "total": 0
+    },
+    {
+      "week": 202634,
+      "total": 0
+    },
+    {
+      "week": 202635,
+      "total": 0
+    },
+    {
+      "week": 202636,
+      "total": 0
+    },
+    {
+      "week": 202637,
+      "total": 6
+    },
+    {
+      "week": 202638,
+      "total": 2
+    },
+    {
+      "week": 202639,
+      "total": 3
+    }
+  ],
+  "fetched_at": "2026-09-30"
+}
