@@ -1,7 +1,6 @@
 - 👋 Hi, I’m xingzhou
 - 👀 I’m interested in OS,C/C++/Java/Go/Rust...
-- 🌱 I’m currently learning Network/
-- 💞️ I’m looking to collaborate on not limited projects
+- 💞️ I’m dived in AI models, agent development
 - 📫 How to reach me geek.0801.tech@gmail.com
 
 
