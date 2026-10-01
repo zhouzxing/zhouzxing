@@ -1,0 +1,138 @@
+{
+  "repo": "zhouzxing/zhouzxing",
+  "repos": [
+    "zhouzxing/zhouzxing",
+    "zhouzxing/infor_ai",
+    "zhouzxing/python_tech_research",
+    "zhouzxing/resume"
+  ],
+  "commits": [
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "cdb54780fa",
+      "date": "2024-01-17T03:37:34Z",
+      "subject": "Create README.md"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "1a7c92a4fb",
+      "date": "2024-08-23T04:17:10Z",
+      "subject": "Update README.md"
+    },
+    {
+      "repo": "zhouzxing/resume",
+      "sha": "12025d6004",
+      "date": "2026-09-18T02:27:42Z",
+      "subject": "26 first"
+    },
+    {
+      "repo": "zhouzxing/python_tech_research",
+      "sha": "f4fa2f9714",
+      "date": "2026-09-19T02:41:18Z",
+      "subject": "v0.1 fastapi: route + model + orm"
+    },
+    {
+      "repo": "zhouzxing/python_tech_research",
+      "sha": "87f980dd85",
+      "date": "2026-09-20T23:53:26Z",
+      "subject": "add .gitignore"
+    },
+    {
+      "repo": "zhouzxing/python_tech_research",
+      "sha": "6784497529",
+      "date": "2026-09-20T23:55:18Z",
+      "subject": "删除.idea , log无关文件"
+    },
+    {
+      "repo": "zhouzxing/python_tech_research",
+      "sha": "e55327d66b",
+      "date": "2026-09-20T23:57:25Z",
+      "subject": "delete  log, no nedd to sync repo"
+    },
+    {
+      "repo": "zhouzxing/python_tech_research",
+      "sha": "81db17ba9e",
+      "date": "2026-09-20T23:58:19Z",
+      "subject": "Merge branch 'master'"
+    },
+    {
+      "repo": "zhouzxing/python_tech_research",
+      "sha": "fdc2b771a5",
+      "date": "2026-09-24T08:49:43Z",
+      "subject": "重构第一版：重新验证2.0推荐写法"
+    },
+    {
+      "repo": "zhouzxing/resume",
+      "sha": "96d64a57a0",
+      "date": "2026-09-25T06:23:55Z",
+      "subject": "提供动态展示"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "b586439ea6",
+      "date": "2026-09-30T01:34:36Z",
+      "subject": "ai 资讯平台聚合器开发V1.0"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "840e7d96c5",
+      "date": "2026-09-30T01:37:25Z",
+      "subject": "修改首页展示，todo: snake + 看板配置"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "2b5109c37b",
+      "date": "2026-09-30T03:37:15Z",
+      "subject": "test: probe github actions availability"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "c5992868bf",
+      "date": "2026-09-30T03:58:22Z",
+      "subject": "docs: 重写 profile README"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "4181772c5a",
+      "date": "2026-09-30T03:58:35Z",
+      "subject": "chore: 移除 Actions 可用性探测的临时文件"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "ba3e568060",
+      "date": "2026-09-30T03:59:24Z",
+      "subject": "chore: refresh snake animation data"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "8287bcea34",
+      "date": "2026-09-30T05:08:45Z",
+      "subject": "fix(snake): 修复 SVG 非法 XML 导致图片不显示"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "390182ebd7",
+      "date": "2026-09-30T10:32:59Z",
+      "subject": "feat(snake): 3D 像素风重设计"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "d720e943b0",
+      "date": "2026-09-30T12:01:15Z",
+      "subject": "feat(mario): 3D 马里奥风格 banner 原型"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "674465cd0d",
+      "date": "2026-09-30T13:33:00Z",
+      "subject": "feat(zelda): Wind Waker style 3D banner"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "b30ef01527",
+      "date": "2026-10-01T00:36:29Z",
+      "subject": "V2.0升级：整体布局优化，大盘多维度展示model，agent"
+    }
+  ],
+  "fetched_at": "2026-10-01"
+}

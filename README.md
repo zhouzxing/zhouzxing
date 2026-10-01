@@ -11,7 +11,7 @@
 [![email](https://img.shields.io/badge/email-contact-blueviolet)](mailto:geek.0801.tech@gmail.com)
 
 <!-- BEGIN snake -->
-![snake animation](./snake.svg)
+![commit snake · 提交记录贪吃蛇动画](./snake_game.svg)
 <!-- END snake -->
 
 ---
@@ -151,4 +151,6 @@
 
 ---
 
-<sub>README 由 [snake_gen.py](https://github.com/zhouzxing/zhouzxing/blob/main/snake_gen.py) 自动生成 · snake 动画数据由 [snake_activity_fetch.py](https://github.com/zhouzxing/zhouzxing/blob/main/snake_activity_fetch.py) 聚合最近 8 周多仓库提交记录</sub>
+<sub>README 动画由 [snake_game_gen.py](https://github.com/zhouzxing/zhouzxing/blob/main/snake_game_gen.py) 生成 · 提交记录由 [snake_game_fetch.py](https://github.com/zhouzxing/zhouzxing/blob/main/snake_game_fetch.py) 聚合 · 贪吃蛇吃掉的每个圆点对应一次真实 commit（按仓库着色）</sub>
+
+<sub>[snake_gen.py](https://github.com/zhouzxing/zhouzxing/blob/main/snake_gen.py) / [snake_activity_fetch.py](https://github.com/zhouzxing/zhouzxing/blob/main/snake_activity_fetch.py) 保留为原始贡献图版本（snake.svg 仍在仓库中，可随时切回）</sub>
