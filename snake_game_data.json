@@ -132,7 +132,61 @@
       "sha": "b30ef01527",
       "date": "2026-10-01T00:36:29Z",
       "subject": "V2.0升级：整体布局优化，大盘多维度展示model，agent"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "718cef23df",
+      "date": "2026-10-01T01:25:22Z",
+      "subject": "feat(snake): commit-driven playable snake game"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "b10894ff32",
+      "date": "2026-10-03T08:09:08Z",
+      "subject": "v3.0 添加最热开源项目推荐"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "a92541ad1e",
+      "date": "2026-10-03T09:20:12Z",
+      "subject": "V3.5 添加个人维护信息"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "1043efae45",
+      "date": "2026-10-03T09:51:46Z",
+      "subject": "v3.5.1 添加架构设计文档"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "c74e01ee6b",
+      "date": "2026-10-03T10:00:56Z",
+      "subject": "add gitignore"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "2e202ebe74",
+      "date": "2026-10-03T10:01:00Z",
+      "subject": "Revert \"v3.5.1 添加架构设计文档\""
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "46f2d9164e",
+      "date": "2026-10-03T10:08:55Z",
+      "subject": "恢复 docs 架构文档"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "56f4598729",
+      "date": "2026-10-03T10:12:22Z",
+      "subject": "更新数据源"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "a01b85e11b",
+      "date": "2026-10-03T11:23:26Z",
+      "subject": "v4.0 添加爬虫监控看板"
     }
   ],
-  "fetched_at": "2026-10-01"
+  "fetched_at": "2026-10-05"
 }
