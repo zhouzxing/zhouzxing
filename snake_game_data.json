@@ -186,7 +186,31 @@
       "sha": "a01b85e11b",
       "date": "2026-10-03T11:23:26Z",
       "subject": "v4.0 添加爬虫监控看板"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "86731e4094",
+      "date": "2026-10-05T08:38:08Z",
+      "subject": "chore: refresh snake animations"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "b80eeafe70",
+      "date": "2026-10-07T01:16:21Z",
+      "subject": "优化布局：将博客目录折叠起来"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "d9ec57573c",
+      "date": "2026-10-07T08:50:15Z",
+      "subject": "V4.1优化agent数据源管控 - 尤其是开源agent包含"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "f751b63830",
+      "date": "2026-10-09T16:10:53Z",
+      "subject": "v4.2 添加模型，agent评价指标对比"
     }
   ],
-  "fetched_at": "2026-10-05"
+  "fetched_at": "2026-10-12"
 }
