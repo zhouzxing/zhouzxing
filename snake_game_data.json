@@ -210,7 +210,25 @@
       "sha": "f751b63830",
       "date": "2026-10-09T16:10:53Z",
       "subject": "v4.2 添加模型，agent评价指标对比"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "13c65629e5",
+      "date": "2026-10-11T22:51:57Z",
+      "subject": "feat: add AI 岗位 (JD) tab — 智联招聘实时抓取 AI应用/Agent/大模型岗位"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "d66380c563",
+      "date": "2026-10-12T08:50:04Z",
+      "subject": "chore: refresh snake animations"
+    },
+    {
+      "repo": "zhouzxing/infor_ai",
+      "sha": "9eed73cfb8",
+      "date": "2026-10-18T00:54:42Z",
+      "subject": "5.0增加最新https://arxiv.org/ 论文动向调查，当前前沿研究者都在做什么 - 准备后续架构迭代"
     }
   ],
-  "fetched_at": "2026-10-12"
+  "fetched_at": "2026-10-19"
 }
