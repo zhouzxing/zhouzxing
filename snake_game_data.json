@@ -228,7 +228,13 @@
       "sha": "9eed73cfb8",
       "date": "2026-10-18T00:54:42Z",
       "subject": "5.0增加最新https://arxiv.org/ 论文动向调查，当前前沿研究者都在做什么 - 准备后续架构迭代"
+    },
+    {
+      "repo": "zhouzxing/zhouzxing",
+      "sha": "803ec67f16",
+      "date": "2026-10-19T07:28:48Z",
+      "subject": "chore: refresh snake animations"
     }
   ],
-  "fetched_at": "2026-10-19"
+  "fetched_at": "2026-10-26"
 }
